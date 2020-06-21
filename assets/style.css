@@ -1,0 +1,53 @@
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.topDiv {
+    background-color: #00ff00;
+    border: 10px solid #000000; 
+    /* text-align: center; */
+    height: 200px;
+   margin: 60px 50px 50px 40px;
+    flex-wrap: wrap;
+}
+.flex-container {
+    display: flex;
+    height: 100%;
+    align-content: stretch;
+    
+  }
+  img{
+      width: 100%;
+      height: inherit;
+  }
+  
+  .flex-container > div {
+    width: 33.3%;
+    margin: 30px;
+
+
+  }
+  .flex-container2 {
+    display: flex;
+    height: 600px; 
+    align-content: stretch;
+    
+  }
+  
+  .flex-container2 > div {
+    width: 33.3%;
+    margin: 10px;
+
+  }
+ div .fourth {
+      background-color:yellow ;
+      border: 10px solid #000000;
+ }
+ div .fifth {
+    background-color:#ff0000 ;
+    border: 10px solid #000000;
+}
+div .sixth {
+    background-color:#0000ff;
+    border: 10px solid #000000;
+}
